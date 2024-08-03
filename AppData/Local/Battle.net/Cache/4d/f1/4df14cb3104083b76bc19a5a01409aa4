@@ -1,0 +1,1 @@
+{"fragment_id":"osi_cn_deprecation_override","products":[{"base":{"types":{"beta":{"deprecated":false},"event":{"deprecated":false},"fenris_dev_2":{"deprecated":false},"osi_dev":{"deprecated":false}}},"id":"OSI"}],"version":30}

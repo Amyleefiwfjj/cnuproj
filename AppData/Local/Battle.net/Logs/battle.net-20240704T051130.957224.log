@@ -1,0 +1,15 @@
+I 2024-07-04 05:11:30.958337 [Main] {Main} Logging started for Battle.net build 2.34.0.14907
+I 2024-07-04 05:11:30.959015 [Configuration] {Main} SharedConfigRoot: C:\ProgramData\Battle.net
+I 2024-07-04 05:11:30.959709 [Configuration] {Main} RoamingConfigRoot: C:\Users\amyle\AppData\Roaming\Battle.net
+I 2024-07-04 05:11:30.959722 [Configuration] {Main} LocalConfigRoot: C:\Users\amyle\AppData\Local\Battle.net
+D 2024-07-04 05:11:30.959974 [Configuration] {Main} Searching for config file: C:\Program Files (x86)\Battle.net\Battle.net.14907\Battle.net.config
+D 2024-07-04 05:11:30.960059 [Configuration] {Main} Searching for config file: C:\Program Files (x86)\Battle.net\Battle.net.config
+D 2024-07-04 05:11:30.960493 [Configuration] {Main} User Configuration File: C:\Users\amyle\AppData\Roaming\Battle.net\Battle.net.config
+I 2024-07-04 05:11:30.961911 [Main] {Main} Command line arguments: {[0]=--game=hs_beta, [1]=--gamepath=C:\Program Files (x86)\Hearthstone}
+I 2024-07-04 05:11:30.963638 [Main] {Main} Opening IPC shared memory. queueName=User:amyle:Battle.net IPC ShMem mode=client
+I 2024-07-04 05:11:30.963852 [CommandQueue] {Main} Dispatching Command: register hs_beta C:\Program Files (x86)\Hearthstone   false
+I 2024-07-04 05:11:30.963894 [Main] {Main} Leaving because another instance of battle.net is running
+D 2024-07-04 05:11:30.963917 [Main] {Main} Shutting down Backend
+D 2024-07-04 05:11:30.963922 [Main] {Main} Closing IPC Service
+D 2024-07-04 05:11:30.963925 [CommandQueue] {Main} IPCService is shutting down
+D 2024-07-04 05:11:30.963954 [Main] {Main} Shutting down callback queue

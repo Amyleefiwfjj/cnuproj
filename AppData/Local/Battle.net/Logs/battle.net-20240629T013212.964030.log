@@ -1,0 +1,568 @@
+I 2024-06-29 01:32:12.965071 [Main] {Main} Logging started for Battle.net build 2.34.0.14907
+I 2024-06-29 01:32:12.966119 [Configuration] {Main} SharedConfigRoot: C:\ProgramData\Battle.net
+I 2024-06-29 01:32:12.967152 [Configuration] {Main} RoamingConfigRoot: C:\Users\amyle\AppData\Roaming\Battle.net
+I 2024-06-29 01:32:12.967171 [Configuration] {Main} LocalConfigRoot: C:\Users\amyle\AppData\Local\Battle.net
+D 2024-06-29 01:32:12.967839 [Configuration] {Main} Searching for config file: C:\Program Files (x86)\Battle.net\Battle.net.14907\Battle.net.config
+D 2024-06-29 01:32:12.967942 [Configuration] {Main} Searching for config file: C:\Program Files (x86)\Battle.net\Battle.net.config
+E 2024-06-29 01:32:12.968082 [Configuration] {Main} Failed to check configuration file for existence: code=2 msg=지정된 파일을 찾을 수 없습니다
+D 2024-06-29 01:32:12.968409 [Configuration] {Main} User Configuration File: C:\Users\amyle\AppData\Roaming\Battle.net\Battle.net.config
+I 2024-06-29 01:32:12.971067 [Main] {Main} Command line arguments: {[0]=--detected-country=KR, [1]=--detected-region=KR}
+I 2024-06-29 01:32:12.976111 [Main] {Main} Opening IPC shared memory. queueName=User:amyle:Battle.net IPC ShMem mode=server
+I 2024-06-29 01:32:13.019261 [Main] {Main} Adding ObserverRecord: QtLoggingRules
+I 2024-06-29 01:32:13.020596 [Frontend] {Main} Supplying list of renderers: d3d11,warp,desktop
+I 2024-06-29 01:32:13.492846 [LocalizationData] {Main} 22 language(s) loaded from languages.xml, default=enUS
+W 2024-06-29 01:32:13.492875 [LocalizationData] {Main} Invalid language detected during initializing. Reverting to defaults. language=
+D 2024-06-29 01:32:13.515628 [Main] {Main} Adding application font: resources/fonts/BlizzardReg.ttf
+D 2024-06-29 01:32:13.517517 [Main] {Main} Adding application font: resources/fonts/BlizzardLig.ttf
+D 2024-06-29 01:32:13.519226 [Main] {Main} Adding application font: resources/fonts/BlizzardBol.ttf
+D 2024-06-29 01:32:13.520745 [Main] {Main} Adding application font: resources/fonts/NotoSans-Bold.ttf
+D 2024-06-29 01:32:13.526269 [Main] {Main} Adding application font: resources/fonts/NotoSans-BoldItalic.ttf
+D 2024-06-29 01:32:13.531579 [Main] {Main} Adding application font: resources/fonts/NotoSans-Italic.ttf
+D 2024-06-29 01:32:13.536237 [Main] {Main} Adding application font: resources/fonts/NotoSans-Regular.ttf
+D 2024-06-29 01:32:13.540883 [Main] {Main} Adding application font: resources/fonts/ObjectSans-Bold.ttf
+D 2024-06-29 01:32:13.542895 [Main] {Main} Adding application font: resources/fonts/ObjectSans-Medium.ttf
+D 2024-06-29 01:32:14.982225 [Main] {Main} Setting font to: Malgun Gothic
+I 2024-06-29 01:32:14.983437 [HighDpiManager] {Main} Detected screen \\.\DISPLAY1 primary=1 devicePixelRatio=1.5
+I 2024-06-29 01:32:14.984466 [CacheManager] {Main} Local storage cache at: C:\Users\amyle\AppData\Local\Battle.net\Cache
+I 2024-06-29 01:32:14.988340 [Main] {Main} Opened database at: C:\Users\amyle\AppData\Local\Battle.net\CachedData.db
+E 2024-06-29 01:32:14.989204 [Main] {Main} Query failed: no such table: schema_info
+I 2024-06-29 01:32:15.003973 [Main] {Main} Created table 'schema_info' version=1
+I 2024-06-29 01:32:15.014477 [Main] {Main} Created table 'login_cache' version=2
+I 2024-06-29 01:32:15.014624 [Main] {Main} Adding ObserverRecord: UpdateInterval
+I 2024-06-29 01:32:15.014651 [Main] {Main} Adding ObserverRecord: UpdateIntervalOnFailure
+I 2024-06-29 01:32:15.014659 [Main] {Main} Adding ObserverRecord: UseNGDP
+I 2024-06-29 01:32:15.014865 [Main] {Main} Adding ObserverRecord: ExternalMetadata
+I 2024-06-29 01:32:15.014957 [Main] {Main} Adding ObserverRecord: SessionExpirationLimitsMin
+I 2024-06-29 01:32:15.016318 [Main] {Main} Adding ObserverRecord: EnableAgentClientLog
+I 2024-06-29 01:32:15.016526 [Main] {Main} Adding ObserverRecord: AgentUpdateIntervalMS
+I 2024-06-29 01:32:15.016571 [Main] {Main} Adding ObserverRecord: GameListUpdateIntervalMS
+I 2024-06-29 01:32:15.016628 [Main] {Main} Adding ObserverRecord: GameSessionListIntervalMS
+D 2024-06-29 01:32:15.016915 [Agent] {Main} PolicyHandler Thread STARTED
+D 2024-06-29 01:32:15.017784 [Agent] {Agent} PolicyHandlerThreadProc: I shall in all my best obey you.
+I 2024-06-29 01:32:15.194858 [Agent] {Agent} Agent has different session: 12548604885281818744
+I 2024-06-29 01:32:15.194886 [Agent] {Agent} Agent Version is now: 2.35.1.8767 (retail)
+I 2024-06-29 01:32:15.199691 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=1, oldRunning=0)
+D 2024-06-29 01:32:15.202744 [Agent] {Agent} GameResource created for uid: battle.net
+I 2024-06-29 01:32:15.202840 [Main] {Agent} Adding ObserverRecord: GameMessageIntervalMS
+I 2024-06-29 01:32:15.210365 [DIAG_BNL_Voice] {Main} Audio device monitor using already-initialized COM
+I 2024-06-29 01:32:15.211951 [Main] {Main} Adding ObserverRecord: UpdatePrioritiesEnabed
+I 2024-06-29 01:32:15.211975 [Main] {Main} Adding ObserverRecord: BattlePlatformProductCode
+I 2024-06-29 01:32:15.211984 [Main] {Main} Adding ObserverRecord: UnattendPatchUid
+I 2024-06-29 01:32:15.213517 [Main] {Main} Adding ObserverRecord: MaxInitTimeMS
+I 2024-06-29 01:32:15.213577 [Main] {Main} Adding ObserverRecord: CooldownMS
+I 2024-06-29 01:32:15.213587 [Main] {Main} Adding ObserverRecord: EndPoints
+I 2024-06-29 01:32:15.213593 [Main] {Main} Adding ObserverRecord: Scope:TraceRoute
+I 2024-06-29 01:32:15.213711 [Main] {Main} Adding ObserverRecord: XboxCommunicationOptIn
+D 2024-06-29 01:32:15.213736 [XboxIPCManager] {Main} Skipping enabled check as feature manager is not init yet
+I 2024-06-29 01:32:15.213827 [Main] {Main} Adding ObserverRecord: Enabled
+I 2024-06-29 01:32:15.213885 [Main] {Main} Adding ObserverRecord: GlobalDisable
+I 2024-06-29 01:32:15.213896 [Main] {Main} Adding ObserverRecord: ServerFlag
+I 2024-06-29 01:32:15.213910 [VoiceSessionBroker] {Main} Global voice is on
+I 2024-06-29 01:32:15.214009 [Main] {Main} Adding ObserverRecord: FilteredMarkdownLinkProtocols
+I 2024-06-29 01:32:15.214044 [Main] {Main} Adding ObserverRecord: ChatSendExpirationLimitsMin
+I 2024-06-29 01:32:15.214056 [Main] {Main} Adding ObserverRecord: ChatExpirationLimitsMin
+I 2024-06-29 01:32:15.214359 [Main] {Main} Execution environment changed. environment=EE_STANDARD
+I 2024-06-29 01:32:15.225458 [Main] {Main} Created table 'remote_objects' version=2
+I 2024-06-29 01:32:15.225510 [Main] {Main} Adding ObserverRecord: BetaAccessOverride
+I 2024-06-29 01:32:15.225520 [Main] {Main} Adding ObserverRecord: BetaBranchOverride
+W 2024-06-29 01:32:15.236404 [FeatureManager] {Main} Failed to load cached feature data. error=[json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+I 2024-06-29 01:32:15.247032 [Main] {Main} Created table 'catalog_cache' version=2
+I 2024-06-29 01:32:15.248440 [CatalogManager] {Main} Built-in catalog hash (catalog/digesthash.txt): 440f6e411f4dddd89aeff196fcdcf5cc
+I 2024-06-29 01:32:15.248764 [CatalogManager] {Main} Built-in catalog hash (catalog/signaturehash.txt): b0ae1f5687beb6645b6103d255aefc17
+I 2024-06-29 01:32:15.248801 [CatalogLoader] {Main} *** LOAD STARTED default: Context(LocalCAS: 440f6e411f4dddd89aeff196fcdcf5cc I) ***
+W 2024-06-29 01:32:15.294989 [FeatureManager] {Main} Feature 'odin_noaltcontent_ce8c0f8d' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295022 [FeatureManager] {Main} Feature 'lazarus_noaltcontent_d4cda575' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295033 [FeatureManager] {Main} Feature 'viper_noaltcontent_0f11890c' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295040 [FeatureManager] {Main} Feature 'diablo_iii_noaltcontent_1fa42bb9' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295046 [FeatureManager] {Main} Feature 'fenris_noaltcontent_35b640c8' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295053 [FeatureManager] {Main} Feature 'world_of_warcraft_noaltcontent_krtw_23f28c56' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295059 [FeatureManager] {Main} Feature 'zeus_noaltcontent_c59539dc' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295066 [FeatureManager] {Main} Feature 'world_of_warcraft_kr_alt_4829ad24' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295073 [FeatureManager] {Main} Feature 'fore_noaltcontent_de1ef22b' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295084 [FeatureManager] {Main} Feature 'hearthstone_noaltcontent_1fa42bb9' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295090 [FeatureManager] {Main} Feature 'heroes_noaltcontent_1fa42bb9' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295097 [FeatureManager] {Main} Feature 'world_of_warcraft_tw_alt_2c96fad3' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295105 [FeatureManager] {Main} Feature 'osi_noaltcontent_9c974b81' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295115 [FeatureManager] {Main} Feature 'osi_limited_install_8f28fd5a' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295122 [FeatureManager] {Main} Feature 'rtro_noaltcontent_51e6540b' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295128 [FeatureManager] {Main} Feature 'starcraft_ii_noaltcontent_1fa42bb9' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295134 [FeatureManager] {Main} Feature 'starcraft_remastered_noaltcontent_1efefb6b' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295141 [FeatureManager] {Main} Feature 'warcraft_iii_noaltcontent_f8563b8b' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295146 [FeatureManager] {Main} Feature 'wlby_noaltcontent_1c629ae2' depends on missing feature 'alt_content_for_starter'
+W 2024-06-29 01:32:15.295154 [FeatureManager] {Main} Feature 'world_of_warcraft_noaltcontent_naeu_dd7973a4' depends on missing feature 'alt_content_for_starter'
+I 2024-06-29 01:32:15.295172 [FeatureManager] {Main} Feature changed: starcraft_remastered_noaltcontent_1efefb6b=true
+I 2024-06-29 01:32:15.295195 [FeatureManager] {Main} Moving feature record from active to inactive: whisper_voice
+I 2024-06-29 01:32:15.295202 [FeatureManager] {Main} Feature changed: starcraft_ii_noaltcontent_1fa42bb9=true
+I 2024-06-29 01:32:15.295209 [FeatureManager] {Main} Moving feature record from active to inactive: trace_route
+I 2024-06-29 01:32:15.295215 [FeatureManager] {Main} Feature changed: odin_noaltcontent_ce8c0f8d=true
+I 2024-06-29 01:32:15.295225 [FeatureManager] {Main} Moving feature record from active to inactive: mapped_urls
+I 2024-06-29 01:32:15.295231 [FeatureManager] {Main} Feature changed: zeus_quick_link_manage_content_a243d642=true
+I 2024-06-29 01:32:15.295239 [FeatureManager] {Main} Moving feature record from active to inactive: ms_game_catalog_extension
+I 2024-06-29 01:32:15.295247 [FeatureManager] {Main} Moving feature record from active to inactive: disable_voice_chat
+I 2024-06-29 01:32:15.426859 [FeatureManager] {Main} Feature changed: auks_cia_limited_eadae65a=true
+I 2024-06-29 01:32:15.426903 [FeatureManager] {Main} Feature changed: lazarus_noaltcontent_d4cda575=true
+I 2024-06-29 01:32:15.426913 [FeatureManager] {Main} Feature changed: auks_quick_link_manage_content_a243d642=true
+I 2024-06-29 01:32:15.426922 [FeatureManager] {Main} Feature changed: viper_noaltcontent_0f11890c=true
+I 2024-06-29 01:32:15.426928 [FeatureManager] {Main} Feature changed: diablo_iii_noaltcontent_1fa42bb9=true
+I 2024-06-29 01:32:15.426936 [FeatureManager] {Main} Feature changed: fenris_noaltcontent_35b640c8=true
+I 2024-06-29 01:32:15.426948 [FeatureManager] {Main} Feature changed: zeus_noaltcontent_c59539dc=true
+I 2024-06-29 01:32:15.426955 [FeatureManager] {Main} Feature changed: fore_limited_alpha_77d92e2d=true
+I 2024-06-29 01:32:15.426961 [FeatureManager] {Main} Feature changed: fore_noaltcontent_de1ef22b=true
+I 2024-06-29 01:32:15.426966 [FeatureManager] {Main} Feature changed: fore_quick_link_manage_content_a243d642=true
+I 2024-06-29 01:32:15.426976 [FeatureManager] {Main} Feature changed: hearthstone_limited_event_b0bc24ed=true
+I 2024-06-29 01:32:15.426982 [FeatureManager] {Main} Feature changed: hearthstone_noaltcontent_1fa42bb9=true
+I 2024-06-29 01:32:15.426988 [FeatureManager] {Main} Feature changed: heroes_noaltcontent_1fa42bb9=true
+I 2024-06-29 01:32:15.426994 [FeatureManager] {Main} Feature changed: odin_deprecate_event_87cae325=true
+I 2024-06-29 01:32:15.427000 [FeatureManager] {Main} Feature changed: odin_quick_link_manage_content_a243d642=true
+I 2024-06-29 01:32:15.427008 [FeatureManager] {Main} Feature changed: osi_noaltcontent_9c974b81=true
+I 2024-06-29 01:32:15.427015 [FeatureManager] {Main} Feature changed: osi_limited_product_a451104f=true
+I 2024-06-29 01:32:15.427020 [FeatureManager] {Main} Feature changed: rtro_noaltcontent_51e6540b=true
+I 2024-06-29 01:32:15.427026 [FeatureManager] {Main} Feature changed: warcraft_iii_noaltcontent_f8563b8b=true
+I 2024-06-29 01:32:15.427031 [FeatureManager] {Main} Feature changed: wlby_noaltcontent_1c629ae2=true
+I 2024-06-29 01:32:15.439887 [FeatureManager] {Main} Feature 'odin_noaltcontent_ce8c0f8d' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.439922 [FeatureManager] {Main} Feature 'lazarus_noaltcontent_d4cda575' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.439932 [FeatureManager] {Main} Feature 'viper_noaltcontent_0f11890c' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.439942 [FeatureManager] {Main} Feature 'diablo_iii_noaltcontent_1fa42bb9' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.439950 [FeatureManager] {Main} Feature 'fenris_noaltcontent_35b640c8' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.439957 [FeatureManager] {Main} Feature 'world_of_warcraft_noaltcontent_krtw_23f28c56' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.439974 [FeatureManager] {Main} Feature 'zeus_noaltcontent_c59539dc' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.439983 [FeatureManager] {Main} Feature 'world_of_warcraft_kr_alt_4829ad24' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.439991 [FeatureManager] {Main} Feature 'fore_noaltcontent_de1ef22b' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440006 [FeatureManager] {Main} Feature 'hearthstone_noaltcontent_1fa42bb9' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440013 [FeatureManager] {Main} Feature 'heroes_noaltcontent_1fa42bb9' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440021 [FeatureManager] {Main} Feature 'world_of_warcraft_tw_alt_2c96fad3' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440032 [FeatureManager] {Main} Feature 'osi_noaltcontent_9c974b81' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440039 [FeatureManager] {Main} Feature 'osi_limited_install_8f28fd5a' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440048 [FeatureManager] {Main} Feature 'rtro_noaltcontent_51e6540b' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440054 [FeatureManager] {Main} Feature 'starcraft_ii_noaltcontent_1fa42bb9' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440062 [FeatureManager] {Main} Feature 'starcraft_remastered_noaltcontent_1efefb6b' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440068 [FeatureManager] {Main} Feature 'warcraft_iii_noaltcontent_f8563b8b' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440074 [FeatureManager] {Main} Feature 'wlby_noaltcontent_1c629ae2' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440082 [FeatureManager] {Main} Feature 'world_of_warcraft_noaltcontent_naeu_dd7973a4' had dependency errors but has been resolved.
+I 2024-06-29 01:32:15.440116 [Main] {Main} Adding ObserverRecord: VoiceTranscriptionOptIn for Feature
+I 2024-06-29 01:32:15.440135 [FeatureManager] {Main} Feature changed: blizzard_profiles=true
+I 2024-06-29 01:32:15.440152 [FeatureManager] {Main} Feature changed: all_games_v2=true
+I 2024-06-29 01:32:15.440158 [FeatureManager] {Main} Feature changed: all_games_new_badge=true
+I 2024-06-29 01:32:15.440169 [FeatureManager] {Main} Feature changed: last_played=true tags=last_played_control
+I 2024-06-29 01:32:15.440178 [FeatureManager] {Main} Feature changed: clear_chat_history=true
+I 2024-06-29 01:32:15.440191 [FeatureManager] {Main} Feature changed: update_time_remaining=true
+I 2024-06-29 01:32:15.440202 [FeatureManager] {Main} Feature changed: group_privacy_settings=true
+I 2024-06-29 01:32:15.440208 [FeatureManager] {Main} Feature changed: cn_age_alert=true
+I 2024-06-29 01:32:15.440234 [FeatureManager] {Main} Feature changed: shop_wish_list=true
+I 2024-06-29 01:32:15.440242 [FeatureManager] {Main} Feature changed: activision_auto_account_creation=true
+I 2024-06-29 01:32:15.440249 [FeatureManager] {Main} Feature changed: suggested_group_members=true
+I 2024-06-29 01:32:15.440258 [FeatureManager] {Main} Feature changed: alt_content_for_starter=true
+I 2024-06-29 01:32:15.440269 [FeatureManager] {Main} Feature changed: cn_auto_login=true
+I 2024-06-29 01:32:15.440276 [FeatureManager] {Main} Feature changed: app_feedback_dialog=true
+I 2024-06-29 01:32:15.440282 [FeatureManager] {Main} Feature changed: refresh_toast=true
+I 2024-06-29 01:32:15.440288 [FeatureManager] {Main} Feature changed: appear_offline=true
+I 2024-06-29 01:32:15.440295 [FeatureManager] {Main} Feature changed: social_tab=true
+I 2024-06-29 01:32:15.440301 [FeatureManager] {Main} Feature changed: auto_update_optimization=true
+I 2024-06-29 01:32:15.440307 [FeatureManager] {Main} Feature changed: embedded_web_view=true
+I 2024-06-29 01:32:15.440314 [FeatureManager] {Main} Feature changed: browser_main_window=true
+I 2024-06-29 01:32:15.440321 [FeatureManager] {Main} Feature changed: cui_token=true tags=token_share_variant
+I 2024-06-29 01:32:15.440330 [FeatureManager] {Main} Feature changed: chat_giphy=true
+I 2024-06-29 01:32:15.440336 [FeatureManager] {Main} Feature changed: mentions=true
+I 2024-06-29 01:32:15.440344 [FeatureManager] {Main} Feature changed: high_dpi=true
+I 2024-06-29 01:32:15.440351 [FeatureManager] {Main} Feature changed: collapsible_social_panel=true
+I 2024-06-29 01:32:15.440358 [FeatureManager] {Main} Feature changed: multichats=true
+I 2024-06-29 01:32:15.440364 [FeatureManager] {Main} Feature changed: content_ui=true
+I 2024-06-29 01:32:15.440371 [FeatureManager] {Main} Feature changed: first_time_experience=true
+I 2024-06-29 01:32:15.440377 [FeatureManager] {Main} Feature changed: content_ui_web_view=true
+I 2024-06-29 01:32:15.440383 [FeatureManager] {Main} Feature changed: cts_takeovers=true
+I 2024-06-29 01:32:15.440389 [FeatureManager] {Main} Feature changed: default_startup_screen=true
+I 2024-06-29 01:32:15.440395 [FeatureManager] {Main} Feature changed: friends_list_popout=true
+I 2024-06-29 01:32:15.440403 [FeatureManager] {Main} Feature changed: non_friend_whispers=true
+I 2024-06-29 01:32:15.440409 [FeatureManager] {Main} Feature changed: sms_protect_requirements=true
+I 2024-06-29 01:32:15.440416 [FeatureManager] {Main} Feature changed: link_previews=true
+I 2024-06-29 01:32:15.440422 [FeatureManager] {Main} Feature changed: friend_request_management=true
+I 2024-06-29 01:32:15.440428 [FeatureManager] {Main} Feature changed: gift_inventory=true
+I 2024-06-29 01:32:15.440434 [FeatureManager] {Main} Feature changed: refresh_friend_tooltip=true
+I 2024-06-29 01:32:15.440441 [FeatureManager] {Main} Feature changed: global_legendary_promos=true
+I 2024-06-29 01:32:15.440447 [FeatureManager] {Main} Feature changed: install_packages=true
+I 2024-06-29 01:32:15.440453 [FeatureManager] {Main} Feature changed: mapped_urls=true
+I 2024-06-29 01:32:15.443029 [FeatureManager] {Main} Feature changed: ms_game_catalog_extension=true
+D 2024-06-29 01:32:15.443066 [XboxIPCManager] {Main} Skipping enabled check as feature manager is not init yet
+I 2024-06-29 01:32:15.443075 [FeatureManager] {Main} Feature changed: modify_install=true
+I 2024-06-29 01:32:15.443082 [FeatureManager] {Main} Feature changed: notification_center=true
+I 2024-06-29 01:32:15.443090 [FeatureManager] {Main} Feature changed: playscreen_migrate_cms=true
+I 2024-06-29 01:32:15.443096 [FeatureManager] {Main} Feature changed: suggested_facebook_friends=true
+I 2024-06-29 01:32:15.443110 [FeatureManager] {Main} Feature changed: quick_action=true
+I 2024-06-29 01:32:15.443117 [FeatureManager] {Main} Feature changed: quick_action_nfe=true
+I 2024-06-29 01:32:15.443124 [FeatureManager] {Main} Feature changed: shared_container_installs=true
+I 2024-06-29 01:32:15.443131 [FeatureManager] {Main} Feature changed: sc2_account_selection_dialog=true
+I 2024-06-29 01:32:15.443145 [FeatureManager] {Main} Feature changed: whisper_voice=true
+I 2024-06-29 01:32:15.443157 [FeatureManager] {Main} Feature changed: starcraft_remastered_noaltcontent_1efefb6b=false
+I 2024-06-29 01:32:15.443168 [FeatureManager] {Main} Feature changed: starcraft_ii_noaltcontent_1fa42bb9=false
+I 2024-06-29 01:32:15.443177 [FeatureManager] {Main} Feature changed: odin_noaltcontent_ce8c0f8d=false
+I 2024-06-29 01:32:15.443188 [FeatureManager] {Main} Feature changed: lazarus_noaltcontent_d4cda575=false
+I 2024-06-29 01:32:15.443197 [FeatureManager] {Main} Feature changed: last_played=false
+I 2024-06-29 01:32:15.443204 [FeatureManager] {Main} Feature changed: diablo_iii_noaltcontent_1fa42bb9=false
+I 2024-06-29 01:32:15.443215 [FeatureManager] {Main} Feature changed: viper_noaltcontent_0f11890c=false
+I 2024-06-29 01:32:15.443223 [FeatureManager] {Main} Feature changed: fenris_noaltcontent_35b640c8=false
+I 2024-06-29 01:32:15.443233 [FeatureManager] {Main} Feature changed: zeus_noaltcontent_c59539dc=false
+I 2024-06-29 01:32:15.443241 [FeatureManager] {Main} Feature changed: fore_noaltcontent_de1ef22b=false
+I 2024-06-29 01:32:15.443249 [FeatureManager] {Main} Feature changed: hearthstone_noaltcontent_1fa42bb9=false
+I 2024-06-29 01:32:15.443261 [FeatureManager] {Main} Feature changed: heroes_noaltcontent_1fa42bb9=false
+I 2024-06-29 01:32:15.443271 [FeatureManager] {Main} Feature changed: osi_limited_install_8f28fd5a=true
+I 2024-06-29 01:32:15.443287 [FeatureManager] {Main} Feature changed: osi_noaltcontent_9c974b81=false
+I 2024-06-29 01:32:15.443295 [FeatureManager] {Main} Feature changed: rtro_noaltcontent_51e6540b=false
+I 2024-06-29 01:32:15.443303 [FeatureManager] {Main} Feature changed: warcraft_iii_noaltcontent_f8563b8b=false
+I 2024-06-29 01:32:15.443312 [FeatureManager] {Main} Feature changed: wlby_noaltcontent_1c629ae2=false
+I 2024-06-29 01:32:15.443335 [FeatureManager] {Main} Feature changed: alt_content_enabled_not=true tags=starter_cui_control
+D 2024-06-29 01:32:15.443346 [XboxIPCManager] {Main} Feature manager init complete
+D 2024-06-29 01:32:15.443366 [XboxIPCManager] {Main} FixupRegistryState - SetGCEState Uninstalled
+D 2024-06-29 01:32:15.443553 [Configuration] {Main} Searching for config file: C:\Program Files (x86)\Battle.net\Battle.net.14907\Environments.yaml
+D 2024-06-29 01:32:15.443702 [Configuration] {Main} Searching for config file: C:\Program Files (x86)\Battle.net\Environments.yaml
+I 2024-06-29 01:32:15.444583 [EnvironmentManager] {Main} Login parameters changed: address=:1119 region=US
+D 2024-06-29 01:32:15.471872 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2024-06-29 01:32:15.471911 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2024-06-29 01:32:15.471922 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2024-06-29 01:32:15.471939 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+I 2024-06-29 01:32:15.471945 [Main] {Main} Dispatch var changes
+D 2024-06-29 01:32:15.471954 [CatalogVarStorage] {Main} Setting var from catalog Client.Browser.LoadSequenceStatsBrowserNameRegex=^(content_browser|shop|home_page_content|alt_content)(.*)
+D 2024-06-29 01:32:15.471970 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2024-06-29 01:32:15.471988 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2024-06-29 01:32:15.471996 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+I 2024-06-29 01:32:15.472003 [Main] {Main} Dispatch var changes
+I 2024-06-29 01:32:15.472009 [VersionManager] {Main} Beta Access: enabled
+I 2024-06-29 01:32:15.478303 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2024-06-29 01:32:15.478367 [CatalogManager] {Main} Loaded initial catalog: hash=440f6e411f4dddd89aeff196fcdcf5cc
+I 2024-06-29 01:32:15.478382 [Main] {Main} Adding ObserverRecord: Scope:NGDP
+I 2024-06-29 01:32:15.639388 [WebServer] {Backend:0} Listening on port 22885
+I 2024-06-29 01:32:16.410338 [Main] {Main} Adding ObserverRecord: SingleInstance
+I 2024-06-29 01:32:16.425655 [Main] {Main} Created table 'browser_stats' version=1
+D 2024-06-29 01:32:16.442906 [UI] {Main} Fixup allowed regions and locales. installedRegion=US allowedRegions= allowedLocales=
+I 2024-06-29 01:32:16.482330 [ToastManager] {Main} Toasts are enabled in ClientSettings
+D 2024-06-29 01:32:16.502078 [ProductState] {Main} Game product state created: uid=
+D 2024-06-29 01:32:16.502143 [ProductState] {Main} InstallState (): currentOperation=Install currentOperationStatus=New
+I 2024-06-29 01:32:16.502852 [Main] {Main} Adding ObserverRecord: Games
+I 2024-06-29 01:32:16.502884 [Main] {Main} Adding ObserverRecord: ShowLastPlayed
+I 2024-06-29 01:32:16.543866 [Main] {Main} Application path is: C:\Program Files (x86)\Battle.net\Battle.net.exe
+I 2024-06-29 01:32:16.758591 [Main] {Main} Adding ObserverRecord: SaleNotificationEnabled
+I 2024-06-29 01:32:16.758634 [Main] {Main} Adding ObserverRecord: SaleNotificationVersion
+I 2024-06-29 01:32:16.758716 [Main] {Main} Adding ObserverRecord: LiveIndicatorEnabled
+I 2024-06-29 01:32:16.758792 [Main] {Main} Adding ObserverRecord: PromotedScreenName
+I 2024-06-29 01:32:16.758805 [Main] {Main} Adding ObserverRecord: PromotedScreenVersion
+D 2024-06-29 01:32:16.761846 [UrlManager] {Main} Resolved URL: key=client/App/alert; region=US; endpoint=https://breaking-news.support.blizzard.com/service/app/live/us/ko-kr
+I 2024-06-29 01:32:16.777818 [ClientServiceAlertMonitor] {Main} Breaking News url has changed. url=https://breaking-news.support.blizzard.com/service/app/live/us/ko-kr
+I 2024-06-29 01:32:16.778546 [Main] {Main} Adding ObserverRecord: BreakingNewsURL
+D 2024-06-29 01:32:16.778886 [UrlManager] {Main} Resolved URL: key=client/App/maintenance; region=US; endpoint=https://breaking-news.support.blizzard.com/service/app/maintenance/us/ko-kr
+I 2024-06-29 01:32:16.789597 [ClientServiceAlertMonitor] {Main} Maintenance url has changed. url=https://breaking-news.support.blizzard.com/service/app/maintenance/us/ko-kr
+I 2024-06-29 01:32:16.789954 [Main] {Main} Adding ObserverRecord: MaintenanceURL
+I 2024-06-29 01:32:16.790179 [Main] {Main} Adding ObserverRecord: GenericToast
+I 2024-06-29 01:32:16.790206 [Main] {Main} Adding ObserverRecord: FriendOnline
+I 2024-06-29 01:32:16.792461 [Main] {Main} Adding ObserverRecord: FriendOffline
+I 2024-06-29 01:32:16.792506 [Main] {Main} Adding ObserverRecord: FriendStartsGame
+I 2024-06-29 01:32:16.792522 [Main] {Main} Adding ObserverRecord: ChatInitiated
+I 2024-06-29 01:32:16.792564 [Main] {Main} Adding ObserverRecord: ChatMessageIncoming
+I 2024-06-29 01:32:16.792607 [Main] {Main} Adding ObserverRecord: ChatMessageIncomingActive
+I 2024-06-29 01:32:16.792643 [Main] {Main} Adding ObserverRecord: ChatMessageOutgoing
+I 2024-06-29 01:32:16.792670 [Main] {Main} Adding ObserverRecord: WhisperVoiceIncoming
+I 2024-06-29 01:32:16.792687 [Main] {Main} Adding ObserverRecord: VoiceJoin
+I 2024-06-29 01:32:16.792702 [Main] {Main} Adding ObserverRecord: VoiceLeave
+I 2024-06-29 01:32:16.792721 [Main] {Main} Adding ObserverRecord: VoiceJoinOther
+I 2024-06-29 01:32:16.792734 [Main] {Main} Adding ObserverRecord: VoiceLeaveOther
+I 2024-06-29 01:32:16.792746 [Main] {Main} Adding ObserverRecord: VoiceMuteOtherOn
+I 2024-06-29 01:32:16.792760 [Main] {Main} Adding ObserverRecord: VoiceMuteOtherOff
+I 2024-06-29 01:32:16.792775 [Main] {Main} Adding ObserverRecord: VoiceMuteMicOn
+I 2024-06-29 01:32:16.792796 [Main] {Main} Adding ObserverRecord: VoiceMuteMicOff
+I 2024-06-29 01:32:16.792811 [Main] {Main} Adding ObserverRecord: VoiceMuteSpeakerOn
+I 2024-06-29 01:32:16.792824 [Main] {Main} Adding ObserverRecord: VoiceMuteSpeakerOff
+I 2024-06-29 01:32:16.792839 [Main] {Main} Adding ObserverRecord: VoicePushToTalkOn
+I 2024-06-29 01:32:16.792853 [Main] {Main} Adding ObserverRecord: VoicePushToTalkOff
+I 2024-06-29 01:32:16.792868 [Main] {Main} Adding ObserverRecord: VoiceError
+I 2024-06-29 01:32:16.793951 [Main] {Main} Adding ObserverRecord: HasSeenFirstTimeExperience
+I 2024-06-29 01:32:16.805794 [Frontend] {Main} Public Computer state changed. is_public=false
+D 2024-06-29 01:32:16.805860 [Frontend] {Main} Session id changed. session_id=3655809060967807179
+D 2024-06-29 01:32:16.807740 [Frontend] {Main} Tracking info changed. client_id=4FDB1FE5-ACFB-427D-8AEC-69CFEED5B80E, user_agent=
+I 2024-06-29 01:32:16.852236 [HighDpiManager] {Main} High dpi support available changed: 1
+I 2024-06-29 01:32:16.852262 [Frontend] {Main} High dpi support: enabled
+D 2024-06-29 01:32:16.853363 [Main] {WorkerPool:1} Checking permissions on path: C:\ProgramData\Battle.net\Setup depth=-1
+D 2024-06-29 01:32:16.856118 [Main] {WorkerPool:1} Checking permissions on path: C:\ProgramData\Battle.net\Agent depth=1
+D 2024-06-29 01:32:16.858722 [Main] {WorkerPool:1} Checking permissions on path: C:\ProgramData\Battle.net\Agent\Agent.8767 depth=1
+D 2024-06-29 01:32:17.021880 [Frontend] {Main} Session id changed. session_id=12548604885281818744
+I 2024-06-29 01:32:17.022917 [Agent] {Main} AgentManager is now initialized
+I 2024-06-29 01:32:17.022944 [InstallManager] {Main} Install manager is now initialized
+D 2024-06-29 01:32:17.022955 [InstallManager] {Main} Selecting best game install data for game battle.net: savedUid=<none> originalUid=<none> newUid=battle.net
+D 2024-06-29 01:32:17.023263 [InstallInfo] {Main} InstallInfo agent association has been changed: uid=battle.net agentUid=battle.net
+D 2024-06-29 01:32:17.024798 [VersionManager] {Main} Branch change from Agent detected. activeBranch= branches={[0]=beta, [1]=cn, [2]=eu, [3]=kr, [4]=macos-10.12, [5]=sg, [6]=tw, [7]=us}
+D 2024-06-29 01:32:17.024839 [VersionManager] {Main} Beta branch is available: true
+D 2024-06-29 01:32:17.024855 [Agent] {Main} Versioning is now enabled
+D 2024-06-29 01:32:17.024866 [Agent] {Main} Triggering game versioning: battle.net
+D 2024-06-29 01:32:17.027036 [InstallManager] {Main} Sending a queued OnProcessPidsUpdated notification: agentUid=battle.net binaryType=game
+D 2024-06-29 01:32:17.027083 [InstallManager] {Main} Sending a queued OnProcessRunning notification: agentUid=battle.net binaryType=game
+I 2024-06-29 01:32:17.027094 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+D 2024-06-29 01:32:17.027110 [InstallInfo] {Main} Operation status changed: opType=Execute oldStatus=Off newStatus=On agentUid=battle.net
+I 2024-06-29 01:32:17.044424 [Main] {Agent} Adding ObserverRecord: SelfUpdateIntervalMS
+I 2024-06-29 01:32:17.066616 [CatalogLoader] {Main} *** LOAD STARTED default: Context(LocalCAS: 440f6e411f4dddd89aeff196fcdcf5cc I) ***
+I 2024-06-29 01:32:17.170487 [FeatureManager] {Main} Moving feature record from active to inactive: overwatch_league_tab
+I 2024-06-29 01:32:17.170521 [FeatureManager] {Main} Moving feature record from active to inactive: blizzcon_tab
+D 2024-06-29 01:32:17.193046 [ProductManager] {Main} Product modified: D3 ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199685 [ProductManager] {Main} Product modified: D3X0 ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199749 [ProductManager] {Main} Product modified: D3X1 ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199760 [ProductManager] {Main} Product modified: FORE ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:17.199779 [ProductManager] {Main} Product modified: Fen ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:17.199791 [ProductManager] {Main} Product modified: FenDev ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:17.199800 [ProductManager] {Main} Product modified: Hero ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199811 [ProductManager] {Main} Product modified: LAZR ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199821 [ProductManager] {Main} Product modified: ODIN ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199832 [ProductManager] {Main} Product modified: ODIN_MW ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199841 [ProductManager] {Main} Product modified: OSI ProductChangeFlags(install_disabled_message,quick_links,starter_items)
+D 2024-06-29 01:32:17.199853 [ProductManager] {Main} Product modified: RTRO ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199863 [ProductManager] {Main} Product modified: S1 ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199873 [ProductManager] {Main} Product modified: S2 ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199883 [ProductManager] {Main} Product modified: VIPR ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:17.199893 [ProductManager] {Main} Product modified: W3 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:17.199904 [ProductManager] {Main} Product modified: WLBY ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199914 [ProductManager] {Main} Product modified: WTCG ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:17.199925 [ProductManager] {Main} Product modified: ZEUS ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:17.200226 [ProductManager] {Main} Products updated
+D 2024-06-29 01:32:17.201597 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2024-06-29 01:32:17.201617 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2024-06-29 01:32:17.201625 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2024-06-29 01:32:17.201637 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+D 2024-06-29 01:32:17.201642 [CatalogVarStorage] {Main} Setting var from catalog Client.Browser.LoadSequenceStatsBrowserNameRegex=^(content_browser|shop|home_page_content|alt_content)(.*)
+D 2024-06-29 01:32:17.201650 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2024-06-29 01:32:17.201658 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2024-06-29 01:32:17.201664 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+I 2024-06-29 01:32:17.208015 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2024-06-29 01:32:17.532800 [UnifiedAuth] {Main} UAuth: setting url: resources://client/images/icon_error.png reason: missing tassadar url
+E 2024-06-29 01:32:17.532835 [UnifiedAuth] {Main} UAuth: tassadar Login URL is empty!
+D 2024-06-29 01:32:17.587907 [UrlManager] {Main} Resolved URL: key=/client/support/login-queue; region=US; endpoint=https://kr.battle.net/support/ko/article/login-queue?utm_source=app-battlenetdesktop&utm_medium=internal
+D 2024-06-29 01:32:17.769728 [ClientServiceAlertMonitor] {Main} Service alert monitor force update requested
+D 2024-06-29 01:32:17.769790 [ClientServiceAlertMonitor] {Main} Breaking News update requested
+D 2024-06-29 01:32:17.769799 [ClientServiceAlertMonitor] {Main} Maintenance update requested
+I 2024-06-29 01:32:17.801676 [UnifiedAuth] {Main} UAuth: setting url: https://account.battle.net/login/ko/logout?ref=https://account.battle.net/login/ko/login.app?app=app reason: reset
+D 2024-06-29 01:32:17.802057 [UrlManager] {Main} Resolved URL: key=client/App/alert; region=KR; endpoint=https://breaking-news.support.blizzard.com/service/app/live/kr/ko-kr
+I 2024-06-29 01:32:17.816053 [ClientServiceAlertMonitor] {Main} Breaking News url has changed. url=https://breaking-news.support.blizzard.com/service/app/live/kr/ko-kr
+D 2024-06-29 01:32:17.816690 [UrlManager] {Main} Resolved URL: key=client/App/maintenance; region=KR; endpoint=https://breaking-news.support.blizzard.com/service/app/maintenance/kr/ko-kr
+I 2024-06-29 01:32:17.833757 [ClientServiceAlertMonitor] {Main} Maintenance url has changed. url=https://breaking-news.support.blizzard.com/service/app/maintenance/kr/ko-kr
+I 2024-06-29 01:32:18.348438 [CacheManager] {Main} CacheManager is now initialized
+I 2024-06-29 01:32:18.348474 [TactVersionWatcher] {Main} Fetched new tact metadata. productCode=catalogs region=us branch=PUB-30 version=2579 seq=13 buildConfig=308ed6873150b5fd4f836a9dc29e86ce
+I 2024-06-29 01:32:18.361482 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=4, oldRunning=1)
+I 2024-06-29 01:32:18.392498 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+D 2024-06-29 01:32:18.393851 [ClientServiceAlertMonitor] {Main} Breaking News remote content has been updated
+D 2024-06-29 01:32:18.404837 [ClientServiceAlertMonitor] {Main} Maintenance remote content has been updated
+I 2024-06-29 01:32:18.556875 [Main] {Main} Adding ObserverRecord: Scope:Root for Browser
+I 2024-06-29 01:32:18.617088 [DIAG_BuildConfig] {Main} no 'encoding' key in build configuration '308ed6873150b5fd4f836a9dc29e86ce', selecting plain-data mode
+I 2024-06-29 01:32:18.617118 [CatalogLoader] {Main} *** LOAD STARTED default: Context(RemoteCAS: 118bb3b0c9aebf50d79a85770cd2dd4e|tpr/catalogs/data) ***
+D 2024-06-29 01:32:18.976155 [UnifiedAuth] {} UAuth: browser state changed: Login
+D 2024-06-29 01:32:19.010272 [UnifiedAuth] {Main} UAuth: begin loading: https://account.battle.net/login/ko/login.app?app=app
+D 2024-06-29 01:32:19.010316 [UnifiedAuth] {Main} UAuth: set size from headers: 376x226 popup=0
+I 2024-06-29 01:32:20.661918 [FeatureManager] {Main} Feature changed: battle.net_cn_cui_0e458f92=true
+D 2024-06-29 01:32:20.673834 [ProductManager] {Main} Product modified: ANBS ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673886 [ProductManager] {Main} Product modified: AUKS ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673899 [ProductManager] {Main} Product modified: AUKSDEV ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673907 [ProductManager] {Main} Product modified: AUKS_MW ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673915 [ProductManager] {Main} Product modified: AUKS_MWII ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673924 [ProductManager] {Main} Product modified: AUKS_MWIII ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673931 [ProductManager] {Main} Product modified: D1 ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.673941 [ProductManager] {Main} Product modified: D3 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673951 [ProductManager] {Main} Product modified: D3CN ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.673959 [ProductManager] {Main} Product modified: D3X0 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673967 [ProductManager] {Main} Product modified: D3X1 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673974 [ProductManager] {Main} Product modified: FORE ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673983 [ProductManager] {Main} Product modified: Fen ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673991 [ProductManager] {Main} Product modified: FenDev ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.673999 [ProductManager] {Main} Product modified: GRY ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674008 [ProductManager] {Main} Product modified: Hero ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674017 [ProductManager] {Main} Product modified: LAZR ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674027 [ProductManager] {Main} Product modified: ODIN ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674035 [ProductManager] {Main} Product modified: ODIN_MW ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674043 [ProductManager] {Main} Product modified: OSI ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674052 [ProductManager] {Main} Product modified: Pro ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674062 [ProductManager] {Main} Product modified: ProDemo3 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674070 [ProductManager] {Main} Product modified: RTRO ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.674078 [ProductManager] {Main} Product modified: S1 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674094 [ProductManager] {Main} Product modified: S2 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674104 [ProductManager] {Main} Product modified: VIPR ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674112 [ProductManager] {Main} Product modified: W1 ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.674120 [ProductManager] {Main} Product modified: W2 ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.674128 [ProductManager] {Main} Product modified: W3 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674137 [ProductManager] {Main} Product modified: WLBY ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674146 [ProductManager] {Main} Product modified: WTCG ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674154 [ProductManager] {Main} Product modified: WoW ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674163 [ProductManager] {Main} Product modified: WoWAsia ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674170 [ProductManager] {Main} Product modified: WoWC ProductChangeFlags(starter_items)
+D 2024-06-29 01:32:20.674179 [ProductManager] {Main} Product modified: WoWX10 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674187 [ProductManager] {Main} Product modified: WoWX2 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674195 [ProductManager] {Main} Product modified: WoWX3 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674202 [ProductManager] {Main} Product modified: WoWX9 ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674210 [ProductManager] {Main} Product modified: ZEUS ProductChangeFlags(quick_links,starter_items)
+D 2024-06-29 01:32:20.674255 [ProductManager] {Main} Products updated
+D 2024-06-29 01:32:20.702976 [ProductManager] {Main} Product modified: ANBS ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703025 [ProductManager] {Main} Product modified: AUKS ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703038 [ProductManager] {Main} Product modified: AUKSDEV ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703046 [ProductManager] {Main} Product modified: AUKS_MW ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703053 [ProductManager] {Main} Product modified: AUKS_MWII ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703060 [ProductManager] {Main} Product modified: AUKS_MWIII ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703067 [ProductManager] {Main} Product modified: FORE ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703075 [ProductManager] {Main} Product modified: ODIN ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703090 [ProductManager] {Main} Product modified: ODIN_MW ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703097 [ProductManager] {Main} Product modified: S2 ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703108 [ProductManager] {Main} Product modified: W3 ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703117 [ProductManager] {Main} Product modified: ZEUS ProductChangeFlags(quick_links)
+D 2024-06-29 01:32:20.703136 [ProductManager] {Main} Products updated
+D 2024-06-29 01:32:20.705242 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2024-06-29 01:32:20.705278 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2024-06-29 01:32:20.705289 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2024-06-29 01:32:20.705304 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+D 2024-06-29 01:32:20.705311 [CatalogVarStorage] {Main} Setting var from catalog Client.Browser.LoadSequenceStatsBrowserNameRegex=^(content_browser|shop|home_page_content|alt_content)(.*)
+D 2024-06-29 01:32:20.705322 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2024-06-29 01:32:20.705332 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2024-06-29 01:32:20.705341 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+I 2024-06-29 01:32:20.724496 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2024-06-29 01:32:20.725032 [CatalogLoader] {Main} *** LOAD STARTED default: Context(RemoteCAS: 118bb3b0c9aebf50d79a85770cd2dd4e|tpr/catalogs/data) ***
+D 2024-06-29 01:32:20.797091 [InstallManager] {Main} Game finished versioning battle.net
+D 2024-06-29 01:32:21.003355 [ProductManager] {Main} Product modified: ANBS ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003413 [ProductManager] {Main} Product modified: AUKS ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003428 [ProductManager] {Main} Product modified: AUKSDEV ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003441 [ProductManager] {Main} Product modified: AUKS_MW ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003450 [ProductManager] {Main} Product modified: AUKS_MWII ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003459 [ProductManager] {Main} Product modified: AUKS_MWIII ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003468 [ProductManager] {Main} Product modified: D1 ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003480 [ProductManager] {Main} Product modified: D3 ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003491 [ProductManager] {Main} Product modified: D3CN ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003500 [ProductManager] {Main} Product modified: D3X0 ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003509 [ProductManager] {Main} Product modified: D3X1 ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003518 [ProductManager] {Main} Product modified: FORE ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003527 [ProductManager] {Main} Product modified: Fen ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003537 [ProductManager] {Main} Product modified: FenDev ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003545 [ProductManager] {Main} Product modified: GRY ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003562 [ProductManager] {Main} Product modified: Hero ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003575 [ProductManager] {Main} Product modified: LAZR ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003586 [ProductManager] {Main} Product modified: ODIN ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003598 [ProductManager] {Main} Product modified: ODIN_MW ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003610 [ProductManager] {Main} Product modified: OSI ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003621 [ProductManager] {Main} Product modified: Pro ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003634 [ProductManager] {Main} Product modified: ProDemo3 ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003643 [ProductManager] {Main} Product modified: RTRO ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003655 [ProductManager] {Main} Product modified: S1 ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003667 [ProductManager] {Main} Product modified: S2 ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003681 [ProductManager] {Main} Product modified: SPOT ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003692 [ProductManager] {Main} Product modified: VIPR ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003704 [ProductManager] {Main} Product modified: W1 ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003721 [ProductManager] {Main} Product modified: W2 ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003733 [ProductManager] {Main} Product modified: W3 ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003745 [ProductManager] {Main} Product modified: WLBY ProductChangeFlags(type_name,77)
+D 2024-06-29 01:32:21.003756 [ProductManager] {Main} Product modified: WTCG ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003768 [ProductManager] {Main} Product modified: WoW ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003781 [ProductManager] {Main} Product modified: WoWAsia ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003792 [ProductManager] {Main} Product modified: WoWC ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003805 [ProductManager] {Main} Product modified: WoWX10 ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003817 [ProductManager] {Main} Product modified: WoWX2 ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003828 [ProductManager] {Main} Product modified: WoWX3 ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003839 [ProductManager] {Main} Product modified: WoWX9 ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003850 [ProductManager] {Main} Product modified: ZEUS ProductChangeFlags(type_name,supports_starter_mode,77)
+D 2024-06-29 01:32:21.003888 [ProductManager] {Main} Products updated
+D 2024-06-29 01:32:21.003958 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2024-06-29 01:32:21.003969 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2024-06-29 01:32:21.003980 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2024-06-29 01:32:21.003995 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+D 2024-06-29 01:32:21.004003 [CatalogVarStorage] {Main} Setting var from catalog Client.Browser.LoadSequenceStatsBrowserNameRegex=^(content_browser|shop|home_page_content|alt_content)(.*)
+D 2024-06-29 01:32:21.004015 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2024-06-29 01:32:21.004026 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2024-06-29 01:32:21.004036 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+I 2024-06-29 01:32:21.015967 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+D 2024-06-29 01:32:21.072645 [UnifiedAuth] {Main} UAuth: finished loading. statusCode=200 state=Login
+D 2024-06-29 01:32:21.370568 [ClientServiceAlertMonitor] {Main} Service alert monitor force update requested
+D 2024-06-29 01:32:21.370604 [ClientServiceAlertMonitor] {Main} Breaking News update requested
+D 2024-06-29 01:32:21.377139 [ClientServiceAlertMonitor] {Main} Maintenance update requested
+I 2024-06-29 01:32:24.469796 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=5, oldRunning=4)
+I 2024-06-29 01:32:24.478054 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+W 2024-06-29 01:51:17.841043 [RemoteContentManager] {http} Request failed. url=https://breaking-news.support.blizzard.com/service/app/maintenance/kr/ko-kr statusCode=0 err=Could not resolve host: breaking-news.support.blizzard.com
+W 2024-06-29 01:51:17.888267 [RemoteContentManager] {http} Request failed. url=https://breaking-news.support.blizzard.com/service/app/live/kr/ko-kr statusCode=0 err=Could not resolve host: breaking-news.support.blizzard.com
+I 2024-06-29 02:04:32.654836 [Main] {Main} Destroying ObserverRecord: Scope:Root for Browser
+D 2024-06-29 02:04:32.681284 [GameController] {Main} Shutting down GameController
+D 2024-06-29 02:04:32.681313 [Main] {Main} Shutting down GameLaunchController
+I 2024-06-29 02:04:32.681319 [Main] {Main} Destroying ObserverRecord: Games
+I 2024-06-29 02:04:32.681331 [Main] {Main} Destroying ObserverRecord: ShowLastPlayed
+I 2024-06-29 02:04:32.681339 [GameController] {Main} Deleting GameFamily: , # of game accounts:0
+D 2024-06-29 02:04:32.681377 [ProductState] {Main} Game product state destroyed: uid=
+I 2024-06-29 02:04:32.681403 [Main] {Main} Destroying ObserverRecord: HasSeenFirstTimeExperience
+I 2024-06-29 02:04:32.681743 [Main] {Main} Destroying ObserverRecord: PromotedScreenName
+I 2024-06-29 02:04:32.681756 [Main] {Main} Destroying ObserverRecord: PromotedScreenVersion
+I 2024-06-29 02:04:32.681768 [Main] {Main} Destroying ObserverRecord: LiveIndicatorEnabled
+I 2024-06-29 02:04:32.681781 [Main] {Main} Destroying ObserverRecord: SaleNotificationEnabled
+I 2024-06-29 02:04:32.681784 [Main] {Main} Destroying ObserverRecord: SaleNotificationVersion
+I 2024-06-29 02:04:32.682326 [Main] {Main} Destroying ObserverRecord: BreakingNewsURL
+I 2024-06-29 02:04:32.682339 [Main] {Main} Destroying ObserverRecord: MaintenanceURL
+I 2024-06-29 02:04:32.682360 [ToastManager] {Main} Clearing toast queue
+I 2024-06-29 02:04:32.689468 [Main] {Main} Destroying ObserverRecord: GenericToast
+I 2024-06-29 02:04:32.689559 [Main] {Main} Destroying ObserverRecord: FriendOnline
+I 2024-06-29 02:04:32.689567 [Main] {Main} Destroying ObserverRecord: FriendOffline
+I 2024-06-29 02:04:32.689571 [Main] {Main} Destroying ObserverRecord: FriendStartsGame
+I 2024-06-29 02:04:32.689587 [Main] {Main} Destroying ObserverRecord: ChatInitiated
+I 2024-06-29 02:04:32.689596 [Main] {Main} Destroying ObserverRecord: ChatMessageIncoming
+I 2024-06-29 02:04:32.689605 [Main] {Main} Destroying ObserverRecord: ChatMessageIncomingActive
+I 2024-06-29 02:04:32.689613 [Main] {Main} Destroying ObserverRecord: ChatMessageOutgoing
+I 2024-06-29 02:04:32.689617 [Main] {Main} Destroying ObserverRecord: WhisperVoiceIncoming
+I 2024-06-29 02:04:32.689620 [Main] {Main} Destroying ObserverRecord: VoiceJoin
+I 2024-06-29 02:04:32.689624 [Main] {Main} Destroying ObserverRecord: VoiceLeave
+I 2024-06-29 02:04:32.689628 [Main] {Main} Destroying ObserverRecord: VoiceJoinOther
+I 2024-06-29 02:04:32.689631 [Main] {Main} Destroying ObserverRecord: VoiceLeaveOther
+I 2024-06-29 02:04:32.689635 [Main] {Main} Destroying ObserverRecord: VoiceMuteOtherOn
+I 2024-06-29 02:04:32.689638 [Main] {Main} Destroying ObserverRecord: VoiceMuteOtherOff
+I 2024-06-29 02:04:32.689642 [Main] {Main} Destroying ObserverRecord: VoiceMuteMicOn
+I 2024-06-29 02:04:32.689645 [Main] {Main} Destroying ObserverRecord: VoiceMuteMicOff
+I 2024-06-29 02:04:32.689648 [Main] {Main} Destroying ObserverRecord: VoiceMuteSpeakerOn
+I 2024-06-29 02:04:32.689651 [Main] {Main} Destroying ObserverRecord: VoiceMuteSpeakerOff
+I 2024-06-29 02:04:32.689655 [Main] {Main} Destroying ObserverRecord: VoicePushToTalkOn
+I 2024-06-29 02:04:32.689658 [Main] {Main} Destroying ObserverRecord: VoicePushToTalkOff
+I 2024-06-29 02:04:32.689662 [Main] {Main} Destroying ObserverRecord: VoiceError
+I 2024-06-29 02:04:33.332779 [Main] {Main} Destroying ObserverRecord: SingleInstance
+I 2024-06-29 02:04:33.332904 [Main] {Main} Destroying ObserverRecord: QtLoggingRules
+D 2024-06-29 02:04:33.338673 [Main] {Main} Shutting down Backend
+D 2024-06-29 02:04:33.338697 [Main] {Main} Closing IPC Service
+D 2024-06-29 02:04:33.338701 [CommandQueue] {Main} IPCService is shutting down
+D 2024-06-29 02:04:33.339042 [Main] {Main} Shutting down account manager
+D 2024-06-29 02:04:33.339249 [Main] {Main} Shutting down CacheManager
+D 2024-06-29 02:04:33.339258 [Main] {Main} Shutting down analytics processor
+D 2024-06-29 02:04:33.339496 [Main] {Main} Shutting down worker pool
+D 2024-06-29 02:04:33.340200 [Main] {Main} Shutting down backend processor
+D 2024-06-29 02:04:33.520812 [Main] {Main} Shutting down data cache
+D 2024-06-29 02:04:33.521982 [Main] {Main} Shutting down catalog manager
+I 2024-06-29 02:04:33.522385 [Main] {Main} Destroying ObserverRecord: Scope:NGDP
+D 2024-06-29 02:04:33.522406 [Main] {Main} Shutting down environment manager
+D 2024-06-29 02:04:33.522440 [Main] {Main} Shutting down battle.net api gateway
+D 2024-06-29 02:04:33.522444 [Main] {Main} Shutting down suggested friends service
+D 2024-06-29 02:04:33.522450 [Main] {Main} Shutting down voice service
+D 2024-06-29 02:04:33.522454 [Main] {Main} Shutting down remote content manager
+D 2024-06-29 02:04:33.522457 [Main] {Main} Shutting down analytics session
+D 2024-06-29 02:04:33.522460 [Main] {Main} Shutting down agent manager
+D 2024-06-29 02:04:33.522467 [Agent] {Main} PolicyHandler Thread STOPPING
+D 2024-06-29 02:04:33.522577 [Agent] {Agent} PolicyHandlerThreadProc: The rest is silence.
+D 2024-06-29 02:04:33.522877 [Agent] {Main} PolicyHandler Thread STOPPED
+I 2024-06-29 02:04:33.522901 [Main] {Main} Destroying ObserverRecord: GameSessionListIntervalMS
+D 2024-06-29 02:04:33.537329 [Agent] {Main} Communicated shutdown to Agent
+D 2024-06-29 02:04:33.537979 [Main] {Main} Shutting down game provider
+I 2024-06-29 02:04:33.537999 [Main] {Main} Destroying ObserverRecord: BetaAccessOverride
+I 2024-06-29 02:04:33.538004 [Main] {Main} Destroying ObserverRecord: BetaBranchOverride
+D 2024-06-29 02:04:33.538007 [Main] {Main} Shutting down battle.net interface
+D 2024-06-29 02:04:33.539125 [Main] {Main} Shutting down callback queue
+I 2024-06-29 02:04:33.539143 [Main] {Main} Destroying ObserverRecord: XboxCommunicationOptIn
+I 2024-06-29 02:04:33.539153 [Main] {Main} Destroying ObserverRecord: MaxInitTimeMS
+I 2024-06-29 02:04:33.539171 [Main] {Main} Destroying ObserverRecord: CooldownMS
+I 2024-06-29 02:04:33.539174 [Main] {Main} Destroying ObserverRecord: EndPoints
+I 2024-06-29 02:04:33.539178 [Main] {Main} Destroying ObserverRecord: Scope:TraceRoute
+D 2024-06-29 02:04:33.539182 [WebServer] {Main} Shutting down WebServerImpl
+D 2024-06-29 02:04:33.539521 [WebServer] {Main} WebServerImpl is stopped
+I 2024-06-29 02:04:33.540371 [Main] {Main} Destroying ObserverRecord: FilteredMarkdownLinkProtocols
+I 2024-06-29 02:04:33.540390 [Main] {Main} Destroying ObserverRecord: Enabled
+I 2024-06-29 02:04:33.540394 [Main] {Main} Destroying ObserverRecord: GlobalDisable
+I 2024-06-29 02:04:33.540397 [Main] {Main} Destroying ObserverRecord: ServerFlag
+I 2024-06-29 02:04:33.541084 [Main] {Main} Destroying ObserverRecord: UpdatePrioritiesEnabed
+I 2024-06-29 02:04:33.541092 [Main] {Main} Destroying ObserverRecord: BattlePlatformProductCode
+I 2024-06-29 02:04:33.541096 [Main] {Main} Destroying ObserverRecord: UnattendPatchUid
+I 2024-06-29 02:04:33.542217 [Main] {Main} Destroying ObserverRecord: EnableAgentClientLog
+I 2024-06-29 02:04:33.542226 [Main] {Main} Destroying ObserverRecord: GameListUpdateIntervalMS
+I 2024-06-29 02:04:33.542231 [Main] {Main} Destroying ObserverRecord: GameMessageIntervalMS
+I 2024-06-29 02:04:33.542278 [Main] {Main} Destroying ObserverRecord: SessionExpirationLimitsMin
+I 2024-06-29 02:04:33.542283 [Main] {Main} Destroying ObserverRecord: ChatExpirationLimitsMin
+I 2024-06-29 02:04:33.542286 [Main] {Main} Destroying ObserverRecord: ChatSendExpirationLimitsMin
+I 2024-06-29 02:04:33.542300 [Main] {Main} Destroying ObserverRecord: ExternalMetadata
+I 2024-06-29 02:04:33.542327 [Main] {Main} Destroying ObserverRecord: UpdateInterval
+I 2024-06-29 02:04:33.542331 [Main] {Main} Destroying ObserverRecord: UpdateIntervalOnFailure
+I 2024-06-29 02:04:33.542334 [Main] {Main} Destroying ObserverRecord: UseNGDP
+D 2024-06-29 02:04:33.663053 [DIAG_BNL_Voice] {Main} {3efc} debug: Notification client reference removed: 0
