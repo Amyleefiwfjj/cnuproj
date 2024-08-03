@@ -1,0 +1,2 @@
+2024-06-29T14:32:39: LogHost: Initializing to normal mode
+ERROR [2024-07-31 16:42:59,335] [1] [SourceTree.Notifications.NotificationsManager] [Log] - Unable to set owner as parent is not visible or non-existent

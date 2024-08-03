@@ -1,0 +1,124 @@
+2024-07-31T16:42:35: LogHost: Initializing to normal mode
+2024-07-31T16:43:03: LogHost: SuppressChangeNotifications was called (perhaps via AddRange), yet you do not
+2024-07-31T16:43:03: LogHost: have a subscription to ShouldReset. This probably isn't what you want, as ItemsAdded
+2024-07-31T16:43:03: LogHost: and friends will appear to 'miss' items
+2024-07-31T16:43:03: Could not obtain git dir,  is not a git repo.
+2024-07-31T16:44:58: Could not obtain git dir, search-ms:displayname=문서의%20검색%20결과&crumb=location:C%3A%5CUsers%5Camyle%5CDocuments\GitHub is not a git repo.
+2024-07-31T16:45:14: Could not obtain git dir, C:\Users\amyle\Documents\GitHub is not a git repo.
+2024-07-31T16:45:27: ScrollToItem idx:0 scrollHeight=7 offset=
+2024-07-31T16:45:27: 2024-07-31 오후 4:45:27 : REFRESHING DIFF
+2024-07-31T16:45:54: ScrollToItem idx:0 scrollHeight=7 offset=
+2024-07-31T16:46:09: 2024-07-31 오후 4:46:09 : REFRESHING DIFF
+2024-07-31T16:46:09: ScrollToItem idx:0 scrollHeight=6 offset=
+2024-07-31T16:46:09: 2024-07-31 오후 4:46:09 : REFRESHING DIFF
+2024-07-31T16:46:15: 2024-07-31 오후 4:46:15 : REFRESHING DIFF
+2024-07-31T16:46:15: ScrollToItem idx:5 scrollHeight=6 offset=1.43
+2024-07-31T16:46:15: 2024-07-31 오후 4:46:15 : REFRESHING DIFF
+2024-07-31T16:46:17: ScrollToItem idx:5 scrollHeight=6 offset=1.43
+2024-07-31T16:46:22: 2024-07-31 오후 4:46:22 : REFRESHING DIFF
+2024-07-31T16:46:22: ScrollToItem idx:6 scrollHeight=7 offset=1.91
+2024-07-31T16:46:22: 2024-07-31 오후 4:46:22 : REFRESHING DIFF
+2024-07-31T16:50:05: 2024-07-31 오후 4:50:05 : REFRESHING DIFF
+2024-07-31T16:50:13: ScrollToItem idx:1 scrollHeight=7 offset=.32
+2024-07-31T16:50:14: 2024-07-31 오후 4:50:14 : REFRESHING DIFF
+2024-07-31T16:50:45: ScrollToItem idx:1 scrollHeight=7 offset=.32
+2024-07-31T16:50:46: ScrollToItem idx:1 scrollHeight=7 offset=.32
+2024-07-31T16:51:04: 2024-07-31 오후 4:51:04 : REFRESHING DIFF
+2024-07-31T16:51:05: ScrollToItem idx:0 scrollHeight=6 offset=
+2024-07-31T16:51:05: 2024-07-31 오후 4:51:05 : REFRESHING DIFF
+2024-07-31T16:51:30: 2024-07-31 오후 4:51:30 : REFRESHING DIFF
+2024-07-31T16:51:35: 2024-07-31 오후 4:51:35 : REFRESHING DIFF
+2024-07-31T16:53:04: Checking remote repositories...
+2024-07-31T16:54:47: 2024-07-31 오후 4:54:47 : REFRESHING DIFF
+2024-07-31T16:54:47: ScrollToItem idx:5 scrollHeight=6 offset=1.43
+2024-07-31T16:54:47: 2024-07-31 오후 4:54:47 : REFRESHING DIFF
+2024-07-31T16:55:06: 2024-07-31 오후 4:55:06 : REFRESHING DIFF
+2024-07-31T16:55:07: 2024-07-31 오후 4:55:07 : REFRESHING DIFF
+2024-07-31T16:55:08: 2024-07-31 오후 4:55:08 : REFRESHING DIFF
+2024-07-31T16:55:11: 2024-07-31 오후 4:55:11 : REFRESHING DIFF
+2024-07-31T16:55:12: 2024-07-31 오후 4:55:12 : REFRESHING DIFF
+2024-07-31T16:55:13: 2024-07-31 오후 4:55:13 : REFRESHING DIFF
+2024-07-31T16:55:14: 2024-07-31 오후 4:55:14 : REFRESHING DIFF
+2024-07-31T16:55:19: 2024-07-31 오후 4:55:19 : REFRESHING DIFF
+2024-07-31T16:55:54: 2024-07-31 오후 4:55:54 : REFRESHING DIFF
+2024-07-31T16:55:58: 2024-07-31 오후 4:55:58 : REFRESHING DIFF
+2024-07-31T16:56:02: 2024-07-31 오후 4:56:02 : REFRESHING DIFF
+2024-07-31T16:56:12: Trying without host
+2024-07-31T16:56:12: Trying without host
+2024-07-31T16:56:40: 2024-07-31 오후 4:56:40 : REFRESHING DIFF
+2024-07-31T16:56:41: ScrollToItem idx:6 scrollHeight=7 offset=1.91
+2024-07-31T16:56:41: 2024-07-31 오후 4:56:41 : REFRESHING DIFF
+2024-07-31T16:56:43: 2024-07-31 오후 4:56:43 : REFRESHING DIFF
+2024-07-31T16:56:48: Trying without host
+2024-07-31T16:56:48: Trying without host
+2024-07-31T16:56:54: 2024-07-31 오후 4:56:54 : REFRESHING DIFF
+2024-07-31T16:56:55: ScrollToItem idx:5 scrollHeight=7 offset=1.59
+2024-07-31T16:56:55: 2024-07-31 오후 4:56:55 : REFRESHING DIFF
+2024-07-31T16:56:56: 2024-07-31 오후 4:56:56 : REFRESHING DIFF
+2024-07-31T16:57:03: 2024-07-31 오후 4:57:03 : REFRESHING DIFF
+2024-07-31T16:57:32: 2024-07-31 오후 4:57:32 : REFRESHING DIFF
+2024-07-31T16:57:32: ScrollToItem idx:7 scrollHeight=8 offset=2.43
+2024-07-31T16:57:32: 2024-07-31 오후 4:57:32 : REFRESHING DIFF
+2024-07-31T16:57:41: Trying without host
+2024-07-31T16:57:41: Trying without host
+2024-07-31T16:57:50: 2024-07-31 오후 4:57:50 : REFRESHING DIFF
+2024-07-31T16:57:51: ScrollToItem idx:7 scrollHeight=8 offset=2.43
+2024-07-31T16:57:51: 2024-07-31 오후 4:57:51 : REFRESHING DIFF
+2024-07-31T16:58:07: 2024-07-31 오후 4:58:07 : REFRESHING DIFF
+2024-07-31T16:58:07: ScrollToItem idx:1 scrollHeight=7 offset=.32
+2024-07-31T16:58:08: 2024-07-31 오후 4:58:08 : REFRESHING DIFF
+2024-07-31T16:58:15: 2024-07-31 오후 4:58:15 : REFRESHING DIFF
+2024-07-31T16:58:17: 2024-07-31 오후 4:58:17 : REFRESHING DIFF
+2024-07-31T16:58:17: ScrollToItem idx:1 scrollHeight=7 offset=.32
+2024-07-31T16:58:17: 2024-07-31 오후 4:58:17 : REFRESHING DIFF
+2024-07-31T16:58:55: 2024-07-31 오후 4:58:55 : REFRESHING DIFF
+2024-07-31T16:59:01: 2024-07-31 오후 4:59:01 : REFRESHING DIFF
+2024-07-31T16:59:01: 2024-07-31 오후 4:59:01 : REFRESHING DIFF
+2024-07-31T16:59:35: 2024-07-31 오후 4:59:35 : REFRESHING DIFF
+2024-07-31T16:59:35: 2024-07-31 오후 4:59:35 : REFRESHING DIFF
+2024-07-31T17:00:21: 2024-07-31 오후 5:00:21 : REFRESHING DIFF
+2024-07-31T17:00:24: 2024-07-31 오후 5:00:24 : REFRESHING DIFF
+2024-07-31T17:00:59: 2024-07-31 오후 5:00:59 : REFRESHING DIFF
+2024-07-31T17:00:59: 2024-07-31 오후 5:00:59 : REFRESHING DIFF
+2024-07-31T17:01:00: 2024-07-31 오후 5:01:00 : REFRESHING DIFF
+2024-07-31T17:01:02: 2024-07-31 오후 5:01:02 : REFRESHING DIFF
+2024-07-31T17:01:12: 2024-07-31 오후 5:01:12 : REFRESHING DIFF
+2024-07-31T17:01:13: 2024-07-31 오후 5:01:13 : REFRESHING DIFF
+2024-07-31T17:03:04: Checking remote repositories...
+2024-07-31T17:03:04: Trying without host
+2024-07-31T18:16:09: Checking remote repositories...
+2024-07-31T18:16:09: Trying without host
+2024-07-31T18:16:14: Trying without host
+2024-07-31T18:26:17: Checking remote repositories...
+2024-07-31T18:26:17: Trying without host
+2024-07-31T18:26:22: Trying without host
+2024-07-31T18:36:25: Checking remote repositories...
+2024-07-31T18:36:26: Trying without host
+2024-07-31T18:36:30: Trying without host
+2024-07-31T18:46:34: Checking remote repositories...
+2024-07-31T18:46:34: Trying without host
+2024-07-31T18:46:39: Trying without host
+2024-07-31T18:56:42: Checking remote repositories...
+2024-07-31T18:56:42: Trying without host
+2024-07-31T18:56:47: Trying without host
+2024-07-31T19:06:50: Checking remote repositories...
+2024-07-31T19:06:50: Trying without host
+2024-07-31T19:06:55: Trying without host
+2024-07-31T19:16:58: Checking remote repositories...
+2024-07-31T19:16:58: Trying without host
+2024-07-31T19:17:04: Trying without host
+2024-07-31T19:27:08: Checking remote repositories...
+2024-07-31T19:27:08: Trying without host
+2024-07-31T19:27:13: Trying without host
+2024-07-31T19:37:16: Checking remote repositories...
+2024-07-31T19:37:16: Trying without host
+2024-07-31T19:37:22: Trying without host
+2024-07-31T19:47:25: Checking remote repositories...
+2024-07-31T19:47:25: Trying without host
+2024-07-31T19:47:30: Trying without host
+2024-07-31T20:04:24: Checking remote repositories...
+2024-07-31T20:04:24: Trying without host
+2024-07-31T20:04:29: Trying without host
+2024-07-31T20:14:32: Checking remote repositories...
+2024-07-31T20:14:32: Trying without host
+2024-07-31T20:14:36: Trying without host

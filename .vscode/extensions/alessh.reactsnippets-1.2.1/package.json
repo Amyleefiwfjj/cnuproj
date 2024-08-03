@@ -1,0 +1,59 @@
+{
+	"name": "ReactSnippets",
+	"description": "Code snippets for Reactjs development in ES6 syntax",
+	"version": "1.2.1",
+	"displayName": "Reactjs code snippets",
+	"publisher": "alessh",
+	"icon": "images/react.png",
+	"galleryBanner": {
+		"theme": "light"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alessh/vscode-react"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "jsx",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "3489ff57-c28f-4984-a93f-d3550100bc06",
+		"publisherId": "ff3d7aeb-5e36-42c0-906c-31457a39c8bc",
+		"publisherDisplayName": "Alessandro Holanda",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1721811082152,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}

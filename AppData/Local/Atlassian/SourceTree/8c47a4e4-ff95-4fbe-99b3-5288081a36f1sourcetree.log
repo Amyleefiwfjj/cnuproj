@@ -1,0 +1,77 @@
+2024-08-02T12:45:32: LogHost: Initializing to normal mode
+2024-08-02T12:45:34: ReactiveList`1: Property change notifications are enabled and type SourceTree.Model.RepositoryRemoteProjectLink isn't INotifyPropertyChanged or IReactiveObject
+2024-08-02T12:45:35: ReactiveList`1: Property change notifications are enabled and type SourceTree.Model.RepositoryRemoteProjectLink isn't INotifyPropertyChanged or IReactiveObject
+2024-08-02T12:45:35: Could not obtain git dir,  is not a git repo.
+2024-08-02T12:45:37: ScrollToItem idx:0 scrollHeight=17 offset=
+2024-08-02T12:46:00: Trying without host
+2024-08-02T12:46:00: ReactiveList`1: Property change notifications are enabled and type SourceTree.Model.RepositoryRemoteProjectLink isn't INotifyPropertyChanged or IReactiveObject
+2024-08-02T12:46:26: ReactiveList`1: Property change notifications are enabled and type SourceTree.Model.RepositoryRemoteProjectLink isn't INotifyPropertyChanged or IReactiveObject
+2024-08-02T12:46:26: ScrollToItem idx:0 scrollHeight=19 offset=
+2024-08-02T12:46:26: 2024-08-02 오후 12:46:26 : REFRESHING DIFF
+2024-08-02T12:46:35: ScrollToItem idx:0 scrollHeight=19 offset=
+2024-08-02T12:46:44: ScrollToItem idx:0 scrollHeight=19 offset=
+2024-08-02T12:46:54: 2024-08-02 오후 12:46:54 : REFRESHING DIFF
+2024-08-02T12:46:54: ScrollToItem idx:0 scrollHeight=19 offset=
+2024-08-02T12:46:54: 2024-08-02 오후 12:46:54 : REFRESHING DIFF
+2024-08-02T12:47:16: 2024-08-02 오후 12:47:16 : REFRESHING DIFF
+2024-08-02T12:47:16: ScrollToItem idx:0 scrollHeight= offset=
+2024-08-02T12:47:17: 2024-08-02 오후 12:47:17 : REFRESHING DIFF
+2024-08-02T12:47:27: 2024-08-02 오후 12:47:27 : REFRESHING DIFF
+2024-08-02T12:47:27: ScrollToItem idx:1 scrollHeight= offset=
+2024-08-02T12:47:27: 2024-08-02 오후 12:47:27 : REFRESHING DIFF
+2024-08-02T12:47:32: ScrollToItem idx:0 scrollHeight= offset=
+2024-08-02T12:47:33: 2024-08-02 오후 12:47:33 : REFRESHING DIFF
+2024-08-02T12:48:17: 2024-08-02 오후 12:48:17 : REFRESHING DIFF
+2024-08-02T12:48:17: ScrollToItem idx:1 scrollHeight= offset=
+2024-08-02T12:48:18: 2024-08-02 오후 12:48:18 : REFRESHING DIFF
+2024-08-02T12:48:18: ScrollToItem idx:0 scrollHeight= offset=
+2024-08-02T12:48:19: 2024-08-02 오후 12:48:19 : REFRESHING DIFF
+2024-08-02T12:48:35: 2024-08-02 오후 12:48:35 : REFRESHING DIFF
+2024-08-02T12:48:35: ScrollToItem idx:1 scrollHeight= offset=
+2024-08-02T12:48:35: 2024-08-02 오후 12:48:35 : REFRESHING DIFF
+2024-08-02T12:48:38: 2024-08-02 오후 12:48:38 : REFRESHING DIFF
+2024-08-02T12:48:39: 2024-08-02 오후 12:48:39 : REFRESHING DIFF
+2024-08-02T12:48:54: 2024-08-02 오후 12:48:54 : REFRESHING DIFF
+2024-08-02T12:48:54: ScrollToItem idx:0 scrollHeight= offset=
+2024-08-02T12:48:54: 2024-08-02 오후 12:48:54 : REFRESHING DIFF
+2024-08-02T12:49:12: 2024-08-02 오후 12:49:12 : REFRESHING DIFF
+2024-08-02T12:49:26: 2024-08-02 오후 12:49:26 : REFRESHING DIFF
+2024-08-02T12:49:27: 2024-08-02 오후 12:49:27 : REFRESHING DIFF
+2024-08-02T12:49:27: 2024-08-02 오후 12:49:27 : REFRESHING DIFF
+2024-08-02T12:49:28: 2024-08-02 오후 12:49:28 : REFRESHING DIFF
+2024-08-02T12:49:29: 2024-08-02 오후 12:49:29 : REFRESHING DIFF
+2024-08-02T12:49:29: 2024-08-02 오후 12:49:29 : REFRESHING DIFF
+2024-08-02T12:49:30: 2024-08-02 오후 12:49:30 : REFRESHING DIFF
+2024-08-02T12:49:30: 2024-08-02 오후 12:49:30 : REFRESHING DIFF
+2024-08-02T12:52:14: ScrollToItem idx:0 scrollHeight= offset=
+2024-08-02T12:52:14: 2024-08-02 오후 12:52:14 : REFRESHING DIFF
+2024-08-02T12:54:28: 2024-08-02 오후 12:54:28 : REFRESHING DIFF
+2024-08-02T12:54:28: 2024-08-02 오후 12:54:28 : REFRESHING DIFF
+2024-08-02T12:54:35: Trying without host
+2024-08-02T12:54:35: Trying without host
+2024-08-02T12:54:42: 2024-08-02 오후 12:54:42 : REFRESHING DIFF
+2024-08-02T12:54:42: ScrollToItem idx:1 scrollHeight= offset=
+2024-08-02T12:54:42: 2024-08-02 오후 12:54:42 : REFRESHING DIFF
+2024-08-02T12:54:50: Trying without host
+2024-08-02T12:54:58: ReactiveList`1: Property change notifications are enabled and type SourceTree.Model.RepositoryRemoteProjectLink isn't INotifyPropertyChanged or IReactiveObject
+2024-08-02T12:54:58: 2024-08-02 오후 12:54:58 : REFRESHING DIFF
+2024-08-02T12:55:16: Trying without host
+2024-08-02T12:55:37: Checking remote repositories...
+2024-08-02T12:55:37: Trying without host
+2024-08-02T12:55:42: Trying without host
+2024-08-02T12:56:50: Trying without host
+2024-08-02T12:56:50: Trying without host
+2024-08-02T12:57:05: ScrollToItem idx:0 scrollHeight= offset=
+2024-08-02T12:58:23: Trying without host
+2024-08-02T12:58:23: Trying without host
+2024-08-02T13:05:45: Checking remote repositories...
+2024-08-02T13:05:45: Trying without host
+2024-08-02T13:05:51: Trying without host
+2024-08-02T13:15:54: Checking remote repositories...
+2024-08-02T13:15:54: Trying without host
+2024-08-02T13:15:59: Trying without host
+2024-08-02T13:16:03: Trying without host
+2024-08-02T13:26:06: Checking remote repositories...
+2024-08-02T13:26:06: Trying without host
+2024-08-02T13:26:10: Trying without host
+2024-08-02T13:26:15: Trying without host
