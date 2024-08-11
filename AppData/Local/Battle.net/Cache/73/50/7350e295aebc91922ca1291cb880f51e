@@ -1,1 +1,0 @@
-{"files":{},"fragment_id":"odin_quick_link_manage_content","products":[{"base":{"types":{"retail":{"quick_links":[{"action":{"custom_action_id":"modify_install_packages","type":"custom_action"},"icon":"default#QUICK_LINK_ICON_DOWNLOAD","id":"manage_content","label":"default#QUICK_LINK_MANAGE_CONTENT","rank":12}]}}},"id":"ODIN"}],"strings":{},"version":30}
