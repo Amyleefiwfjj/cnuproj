@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './MyPage.css';
@@ -11,7 +12,7 @@ function MyPage() {
     username: 'sogang123',
     password: 'Sogang123!',
   });
-  const [editMode, setEditMode] = useState({
+  const [editMode,setEditMode]=useState({
     name: false,
     email: false,
     studentId: false,
@@ -27,8 +28,8 @@ function MyPage() {
     });
   };//name과 value 추출하여 폼 필드 값 업데이트
 
-  const toggleEditMode = (field) => {
-    setEditMode({ ...editMode, [field]: !editMode[field] });
+  const toggleEditMode=(field) =>{
+    setEditMode({...editMode, [field]: !editMode[field]});
   };
   return (
     <div className="MyPage">
@@ -56,13 +57,12 @@ function MyPage() {
               onChange={handleChange}
               disabled={!editMode[field]}
             />
-            <button type="button" className='buttonny' onClick={() => toggleEditMode(field)}>
+            <button type="button" onClick={() => toggleEditMode(field)}>
               {editMode[field] ? '저장하기' : '수정하기'}
             </button>
           </div>
         ))}
-      </form>
-      <footer>
+      </form>      <footer>
         <p>© 2024 CNU </p>
         <div className="footer-links">
           <a href="/about">About Us</a> | <a href="/contact">Contact</a> | <a href="/privacy">Privacy Policy</a>

@@ -218,6 +218,7 @@ body {
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 15px;
+  border-radius: 5px;
   border: 1px solid #ccc;
 }
 
@@ -226,11 +227,14 @@ body {
   margin: 10px;
   border: none;
   border-radius: 5px;
+  background-color: #007bff;
   color: white;
   cursor: pointer;
 }
 
-
+.popup-inner button:last-child {
+  background-color: #dc3545;
+}
 
 .popup-inner ul {
   list-style-type: none;
@@ -245,16 +249,4 @@ body {
 
 .shifted {
   margin-left: 250px; /* To shift the main content when the sidebar is open */
-}
-.App .sidebar-toggle {
-  position: absolute;
-  top: 0.5em; 
-  left: 1em;
-  z-index: 1001 !important;
-  background: none !important;
-  border: none !important;
-  color: rgb(0, 0, 0) !important;
-  cursor: pointer !important;
-  width: 5px !important;
-  height: 5px !important;
 }

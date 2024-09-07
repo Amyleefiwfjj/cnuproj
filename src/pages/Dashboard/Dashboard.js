@@ -40,11 +40,11 @@ function Dashboard() {
   };
 
   const handleAddTeamMember = () => {
-    const contribution = Math.floor(Math.random() * 100);
+    const contribution = Math.floor(Math.random() * 100); 
     const newMember = {
       id: studentID,
       contribution,
-      color: `rgba(188, 13, 18, ${contribution / 100})`,
+      color: `rgba(188, 13, 18, ${contribution / 100})`, 
     };
     setNewProject(prevProject => ({
       ...prevProject,
@@ -82,7 +82,7 @@ function Dashboard() {
       <aside className={`App-sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-content">
           <div className="create-project" onClick={handleCreateProject}>
-            <IoAddCircle size={32} style={{ color: 'red' }} />
+            <IoAddCircle size={32} style={{ color: 'pink' }} />
             <p>프로젝트 생성하기</p>
           </div>
           <div className="my-projects">

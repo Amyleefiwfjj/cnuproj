@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Login.css';
 import PasswordRecovery from './PasswordRecovery';
 
@@ -10,7 +10,7 @@ function Login() {
   });
   const [error, setError] = useState('');
   const [isFindingPassword, setIsFindingPassword] = useState(false);
-  const navigate = useNavigate();
+  const navigate = useNavigate(); // Initialize useNavigate
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,13 +24,19 @@ function Login() {
     e.preventDefault();
     if (formData.username && formData.password) {
       setError('');
-      navigate('/dashboard');
+      navigate('/dashboard'); // Redirect to Dashboard after successful login
     } else {
       setError('아이디와 비밀번호를 입력해주세요.');
     }
   };
 
-
+  const handleLogout = () => {
+    setFormData({
+      username: '',
+      password: '',
+    });
+    setError('');
+  };
 
   useEffect(() => {
     const handleGlobalKeyDown = (event) => {
@@ -49,15 +55,12 @@ function Login() {
   };
 
   const handleSignUp = () => {
-    navigate('/signup');
+    navigate('/signup'); // Navigate to the SignUp component
   };
 
   return (
     <div className="Login">
-      <header>
-        <div className="return">
-          <Link to="/">홈으로 돌아가기</Link>
-        </div>
+      <header className="login-header">
       </header>
       <div className="login-container">
         {isFindingPassword ? (
@@ -89,9 +92,7 @@ function Login() {
                     required
                   />
                 </div>
-                <button type="submit" className="login-button">
-                  로그인
-                </button>
+                <button type="submit">로그인</button>
               </form>
               {error && <p className="error-message">{error}</p>}
               <div className="extra-buttons">

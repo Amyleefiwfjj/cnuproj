@@ -1,18 +1,9 @@
 import React from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { IoPerson } from "react-icons/io5";
-import feature1 from '../../picture/feature1.png';
-import feature2 from '../../picture/feature2.png';
-import feature3 from '../../picture/feature3.png';
 import './Home.css';
 
 function Home() {
-  const navigate = useNavigate();
-
-  const handleButtonClick = () => {
-    navigate('/SignUp');  // '/target-page'로 이동
-  };
-
   return (
     <div className="Home">
       <header className="App-header">
@@ -26,26 +17,25 @@ function Home() {
           <div className="hero-text">
             <h1>팀 프로젝트 관리 서비스</h1>
             <p>쉬운 진행 상황 체크, 목표 상기</p>
-            <button onClick={handleButtonClick} className='cta-button'>
-              지금 시작하기
-            </button>          </div>
+            <button className="cta-button">지금 시작하기</button>
+          </div>
         </section>
         <section className="features">
           <h2>주요 기능</h2>
           <div className="feature-list">
             <div className="feature-item">
-              <img src={feature1} alt="feature1" />
+              <img src="feature1.png" alt="feature1" />
               <h3>과제별 기여도 측정</h3>
               <p>전체, 월별, 주별 기여도를 자동으로 제공</p>
             </div>
             <div className="feature-item">
-              <img src={feature2} alt="feature2" />
+              <img src="feature2.png" alt="feature2" />
               <h3>역할, 업무 분담</h3>
               <p>과제별, 인원별 명확한 업무 분담, 정리</p>
               <p>해야하는 활동에 대한 가이드라인 제시</p>
             </div>
             <div className="feature-item">
-              <img src={feature3} alt="feature3" />
+              <img src="feature3.png" alt="feature3" />
               <h3>회의 시간 정하기</h3>
               <p>가능한 시간대를 직접 고를 수 있는 편리한 서비스</p>
             </div>
