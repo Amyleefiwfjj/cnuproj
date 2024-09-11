@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import { IoMenu, IoAddCircle, IoPerson } from "react-icons/io5";
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import moment from 'moment';
@@ -167,14 +167,6 @@ const Schedule = () => {
     };
     const [projects, setProjects] = useState([]);
 
-    const handleWheel = (e) => {
-        if (e.deltaY < 0) {
-            setCurrentDate(prevDate => new Date(prevDate.setDate(prevDate.getDate() - 1)));
-        } else {
-            setCurrentDate(prevDate => new Date(prevDate.setDate(prevDate.getDate() + 1)));
-        }
-    };
-
     const handleEventMouseOver = (event, e) => {
         setPopupContent(
             `<div><strong>${event.title}</strong></div>
@@ -196,14 +188,6 @@ const Schedule = () => {
     const handleEventMouseOut = () => {
         setPopupStyle({ display: 'none' });
     };
-
-    useEffect(() => {
-        window.addEventListener('wheel', handleWheel);
-
-        return () => {
-            window.removeEventListener('wheel', handleWheel);
-        };
-    }, []);
     const [newProject, setNewProject] = useState({
         githubLink: '',
         goal: '',

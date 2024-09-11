@@ -6,6 +6,8 @@ import SignUp from './components/SignUp/SignUp';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Assignment from './pages/Assignment/Assignment';
 import AssignmentDetail from './pages/AssignmentDetail/AssignmentDetail';
+import MeetingLog from './pages/MeetingLog/MeetingLog';
+import MeetingLogView from './pages/MeetingLogView/MeetingLogView';
 import ProjectDetail from './pages/project/project';
 import MyPage from './components/MyPage/MyPage';
 import Schedule from './components/schedule/schedule';
@@ -52,7 +54,7 @@ function App() {
         </div>
 
         <div className="text" style={{ backgroundColor: '#333' }}>
-          </div>
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
@@ -66,6 +68,8 @@ function App() {
           />
           <Route path="/AssignmentDetail" element={<AssignmentDetail />} />
           <Route path="/project-detail" element={<ProjectDetail />} />
+          <Route path="/MeetingLog" element={<MeetingLog />} />
+          <Route path="/MeetingLogView" element={<MeetingLogView />} />
         </Routes>
       </div>
     </Router>

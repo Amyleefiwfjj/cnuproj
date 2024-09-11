@@ -63,6 +63,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     height: var(--header-height);
+    z-index: 1000;
 }
 
 footer {
@@ -74,6 +75,7 @@ footer {
     text-align: center;
     font-size: 14px;
     height: var(--footer-height);
+    z-index: 1000;
 }
 
 button {
@@ -185,3 +187,70 @@ button:disabled {
     transform: translate(-50%, -50%);
 }
 
+
+.sidebar-toggle {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 998;
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.App-sidebar {
+    position: fixed;
+    left: -285px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #f8f8f8;
+    color: rgb(0, 0, 0);
+    transition: left 0.3s;
+    padding: 1em;
+    z-index: 1000;
+}
+
+.App-sidebar.open {
+    left: 0;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.create-project p {
+    margin-top: 5px;
+}
+
+.my-projects {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.my-projects h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}

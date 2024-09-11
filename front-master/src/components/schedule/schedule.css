@@ -1,40 +1,45 @@
-.create-schedule-button {
+.month-version-button 
+{
     margin: 10px;
-    position: absolute;
-    top: 75px;
-    right: 20px;
-    width: 120px;
-    height: 40px;
-}
-
-.month-version-button {
-    margin: 10px;
-    position: absolute;
-    top: 75px;
+    position: relative;
+    top: -40px;
     left: 10px;
     width: 120px;
     height: 40px;
 }
 
-.week-version-button {
+.week-version-button 
+{
     margin: 10px;
-    position: absolute;
-    top: 75px;
+    position: relative;
+    top: -40px;
     left: 140px;
     width: 120px;
     height: 40px;
 }
 
-.when-to-meet-button {
+.create-schedule-button 
+{
     margin: 10px;
-    position: absolute;
-    top: 75px;
-    right: 150px;
+    position: relative;
+    top: -40px;
+    right: -1250px;
     width: 120px;
     height: 40px;
 }
 
-.when-to-meet-calendars {
+.when-to-meet-button 
+{
+    margin: 10px;
+    position: relative;
+    top: -40px;
+    right: -670px;
+    width: 120px;
+    height: 40px;
+}
+
+.when-to-meet-calendars 
+{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -44,7 +49,7 @@
 
 .rbc-toolbar container {
     margin: 10px;
-    top: 75px;
+    top: 50px;
 }
 
 .when-to-meet-calendars .calendar {
@@ -55,7 +60,7 @@
 .App {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
 }
 
 .App-header,
@@ -84,73 +89,6 @@
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 0 10px;
-}
-
-.sidebar-toggle {
-    position: fixed;
-    top: 1em;
-    left: 1em;
-    z-index: 998;
-    background: none;
-    border: none;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
-
-.App-sidebar {
-    position: fixed;
-    left: -285px;
-    top: 0;
-    width: 250px;
-    height: 100%;
-    background-color: #f8f8f8;
-    color: rgb(0, 0, 0);
-    transition: left 0.3s;
-    padding: 1em;
-    z-index: 1000;
-}
-
-.App-sidebar.open {
-    left: 0;
-}
-
-.sidebar-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.create-project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.create-project p {
-    margin-top: 5px;
-}
-
-.my-projects {
-    margin-top: 20px;
-    width: 100%;
-}
-
-.my-projects h2 {
-    text-align: center;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.project-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
-    background-color: #f0f0f0;
-    padding: 10px;
-    border-radius: 8px;
-    transition: background-color 0.3s;
 }
 
 
@@ -248,7 +186,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     /* 50% 투명도 */
-    z-index: 999;
+    z-index: 998;
     /* 메인 콘텐츠보다 위에 오도록 설정 */
 }
 
@@ -270,9 +208,10 @@ body.modal-open {
 }
 
 
-.rbc-toolbar{
-    transform: translate(-30px,-30px);
+.rbc-toolbar {
+    transform: translate(-30px, -30px);
 }
+
 .rbc-btn-group {
     display: flex;
     align-items: center;
